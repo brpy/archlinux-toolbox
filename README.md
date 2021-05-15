@@ -18,7 +18,7 @@ $ toolbox enter -c archlinux-toolbox
 ```
 ## Stopping container
 
-For some reason exiting toolbox does not stop the container. You can check running containers using `toolbox list`
+For some reason exiting toolbox does not stop the container. You can check running containers using `toolbox list -c`
 
 Top stop container use `podman stop archlinux-toolbox`
 
