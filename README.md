@@ -16,3 +16,14 @@ $ toolbox enter -c archlinux-toolbox
 # You should see this but with your username:
 # [palazzem@toolbox ~]$
 ```
+## Stopping container
+
+For some reason exiting toolbox does not stop the container. You can check running containers using `toolbox list`
+
+Top stop container use `podman stop archlinux-toolbox`
+
+---
+
+This image is mainly intended for desktop use so it comes with `base-devel` as base package and `vim` installed.
+
+To get a minimal image, build from parent repo. This is a fork of https://github.com/palazzem/archlinux-toolbox 
