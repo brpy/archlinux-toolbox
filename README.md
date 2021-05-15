@@ -5,8 +5,6 @@ Archlinux toolbox that can be used with [Toolbox](https://github.com/containers/
 
 ## Usage on Fedora
 
-From a system that has `toolbox` installed, run:
-
 ```bash
 $ sudo dnf install buildah podman toolbox
 $ git clone https://github.com/brpy/archlinux-toolbox.git
