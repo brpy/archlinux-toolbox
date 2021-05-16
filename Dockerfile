@@ -21,4 +21,4 @@ RUN touch /etc/machine-id && \
   echo "%wheel ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/toolbox && \
   mkdir /media
 
-CMD /bin/bash
+CMD /bin/sh
